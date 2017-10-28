@@ -1,0 +1,177 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a{
+  color: seashell;
+}
+
+header{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  top:0px;
+  height: 69px;
+}
+
+main{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  margin-top: 70px;
+}
+
+footer{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}
+
+.head-container{
+  flex: 0 1 auto;
+  align-self: center;
+}
+
+.main-container{
+  flex: 0 1 auto;
+  align-self: stretch;
+}
+
+.foot-container{
+  flex: 0 1 auto;
+  align-self: stretch;
+}
+
+.logo{
+  margin-left: 10px;
+}
+
+.nav{
+  margin-right: 20px;
+}
+
+.mission{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+  margin: auto;
+  height: 700px;
+}
+
+.mission-title{
+  flex: 0 1 auto;
+  align-self: center;
+  width: 1200px;
+  background-color: black;
+}
+
+.tea{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 50px 0 50px 0;
+  max-width: 1000px
+}
+
+.tea-title{
+  display: block;
+}
+
+.tea-container{
+  flex: 0 1 auto;
+  align-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tea-items{
+  flex: 0 1 auto;
+  align-self: center;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.tea-items img{
+  object-fit: cover;
+  height: 200px;
+  width: 300px;
+  margin: 0;
+}
+
+.tea-items h4{
+  margin: 10px 0 0 0;
+}
+
+.locations{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+  margin: auto;
+  height: 500px;
+}
+
+.locations-container{
+  flex: 0 1 auto;
+  align-self: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-item{
+  flex: 0 1 auto;
+  align-self: center;
+  margin: 15px 20px 15px 20px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  padding: 10px;
+}
+
+.contact{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.nav li{
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.logo img{
+  height: 50px;
+}
